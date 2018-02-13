@@ -171,7 +171,7 @@
         height: auto;
         @include box-sizing;
         max-height: 240px;
-        overflow-y: auto;
+        overflow: hidden;
         .ng-option {
             box-sizing: border-box;
             cursor: pointer;
