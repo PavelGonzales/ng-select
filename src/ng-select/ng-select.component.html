@@ -42,7 +42,7 @@
         <ng-container [ngTemplateOutlet]="headerTemplate"></ng-container>
     </div>
     <ng-select-virtual-scroll class="ng-select-dropdown" [disabled]="disableVirtualScroll" [bufferAmount]="4" [items]="itemsList.filteredItems" (update)="viewPortItems = $event">
-        <perfect-scrollbar style="max-height: 240px;" [config]="scrollbarConfig">
+        <perfect-scrollbar style="max-height: 225px;" [config]="scrollbarConfig">
             <div class="ng-option" role="option" (click)="toggleItem(item)" (mousedown)="$event.preventDefault()" (mouseover)="onItemHover(item)"
                 *ngFor="let item of viewPortItems"
                 [class.disabled]="item.disabled"
