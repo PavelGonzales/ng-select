@@ -88,7 +88,6 @@
     "zone.js": "^0.8.16"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-beta.2",
-    "ngx-perfect-scrollbar": "^5.3.5"
+    "bootstrap": "4.0.0-beta.2"
   }
 }
